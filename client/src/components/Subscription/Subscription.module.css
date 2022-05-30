@@ -1,0 +1,53 @@
+.container {
+  background-color: var(--cyan);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 36px;
+}
+
+.title {
+  color: white;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.priceContainer span {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0px 16px 4px 0px;
+}
+
+.priceContainer > p {
+  color: var(--light-gray);
+}
+
+.description {
+  color: white;
+  padding-bottom: 32px;
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: var(--bright-yellow);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
