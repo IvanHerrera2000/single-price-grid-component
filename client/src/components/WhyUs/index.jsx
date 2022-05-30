@@ -4,7 +4,7 @@ import styles from './WhyUs.module.css';
 function WhyUs() {
   return (
     <div className={styles.container}>
-      <h2>Why Us</h2>
+      <h2 className={styles.title}>Why Us</h2>
       <ul>
         <li>Tutorials by industry experts</li>
         <li>Peer &amp; expert code review</li>
